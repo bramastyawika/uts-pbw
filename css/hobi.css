@@ -1,0 +1,53 @@
+/* START -->STYLE BAGIAN HOBI */
+.hobi {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hobi .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 200px;
+    color: white;
+}
+
+.hobi_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobi_item {
+    margin: 10px;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hobi_img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.hobi_item:hover {
+    transform: translateY(-5px);
+}
+
+.hobi_text {
+    padding: 15px;
+    background-color: #E9EAEC;
+    border-radius: 0 0 8px 8px;
+}
+
+.hobi_title {
+    color: #8CAC89;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.hobi_description {
+    color: #666;
+    font-size: 0.9rem;
+}

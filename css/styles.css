@@ -1,0 +1,118 @@
+body {
+    background-image: url('../img/202201101743150000001229743921030709016116144997546972341505461n.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-image: radial-gradient(circle at 0% 0%, #00b2a3 0, #00b2af 5%, #00b1bb 10%, #00b1c5 15%, #00b0cf 20%, #00afd9 25%, #00ade1 30%, #00abe7 35%, #00a9ed 40%, #00a6f1 45%, #1ea3f3 50%, #4a9ff4 55%, #669cf3 60%, #7d97f0 65%, #9193ec 70%, #a28ee6 75%, #b28ae0 80%, #c085d7 85%, #cb81ce 90%, #d67dc4 95%, #de7ab9 100%);*/
+    background-size: cover; /* Memastikan gambar latar belakang mencakup seluruh area halaman */
+    background-position: center;
+}
+
+.header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header ul li a:hover {
+    color: #00FFFF;
+}
+
+.brama {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.brama h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.brama span{
+    color: aqua;
+}
+
+.brama p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.brama a {
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.brama a:hover {
+    background-color: #00FFFF;
+}
+
+.images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images img {
+    border-radius: 20px;
+    max-width: 20%;
+    height: auto;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer__social a {
+    color: #FDB750;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+    color: #FFC947;
+}
+
+.footer__copy {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+/*Penyesuaian tampilan Layar*/
+@media only screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+    
+    .jakwan {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .images {
+        bottom: -150px; 
+    }
+}
